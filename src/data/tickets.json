@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still facing issues.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Not Going Through",
+    "description": "Payment gateway returns an error when user attempts to pay via credit card.",
+    "customer": "Emily Johnson",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-02-03"
+  },
+  {
+    "id": 1003,
+    "title": "App Crash on Launch",
+    "description": "Mobile app crashes immediately after launch on Android devices.",
+    "customer": "Michael Brown",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-03-11"
+  },
+  {
+    "id": 1004,
+    "title": "Email Notifications Not Received",
+    "description": "Users are reporting they don’t receive order confirmation emails.",
+    "customer": "Sarah Williams",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-04-02"
+  },
+  {
+    "id": 1005,
+    "title": "Broken Image Links on Homepage",
+    "description": "Homepage banner images are not loading properly on desktop browsers.",
+    "customer": "David Lee",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-04-20"
+  },
+  {
+    "id": 1006,
+    "title": "Subscription Auto-Renew Failed",
+    "description": "Automatic renewal didn’t process for multiple users this month.",
+    "customer": "Olivia Garcia",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-05-07"
+  },
+  {
+    "id": 1007,
+    "title": "Two-Factor Authentication Not Working",
+    "description": "Customer cannot receive 2FA codes through SMS or email.",
+    "customer": "Daniel Martinez",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-06-01"
+  },
+  {
+    "id": 1008,
+    "title": "Delayed Order Delivery",
+    "description": "Customer order marked as shipped but has no tracking update for 5 days.",
+    "customer": "Sophia Taylor",
+    "priority": "Medium",
+    "status": "In Review",
+    "createdAt": "2024-06-12"
+  },
+  {
+    "id": 1009,
+    "title": "Website Loading Slowly",
+    "description": "Several users reported slow page load times, especially during checkout.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-07-09"
+  },
+  {
+    "id": 1010,
+    "title": "Profile Picture Upload Error",
+    "description": "Users receive an error when uploading new profile pictures.",
+    "customer": "Ava Wilson",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-07-21"
+  },
+  {
+    "id": 1011,
+    "title": "Duplicate Charges on Account",
+    "description": "Customer was billed twice for the same transaction.",
+    "customer": "Liam Thomas",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-08-03"
+  },
+  {
+    "id": 1012,
+    "title": "Live Chat Widget Not Responding",
+    "description": "Live chat bubble is visible but doesn’t open on click.",
+    "customer": "Isabella Harris",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-08-20"
+  },
+  {
+    "id": 1013,
+    "title": "Invoice Download Fails",
+    "description": "Users are unable to download invoices from their billing history.",
+    "customer": "Noah Clark",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-09-10"
+  },
+  {
+    "id": 1014,
+    "title": "Search Function Returns No Results",
+    "description": "Product search bar is not displaying results even when items exist.",
+    "customer": "Mia Rodriguez",
+    "priority": "Low",
+    "status": "In Review",
+    "createdAt": "2024-09-27"
+  },
+  {
+    "id": 1015,
+    "title": "Broken Link in Footer",
+    "description": "Support link in the website footer redirects to a 404 page.",
+    "customer": "Ethan Lewis",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-10-03"
+  }
+]
