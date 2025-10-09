@@ -32,8 +32,8 @@ const CustomerTickets = ({
           className='p-4 rounded-lg bg-white space-y-1 cursor-pointer hover:shadow-md transition'
           onClick={() => handleClick(ticket)}
         >
-          <div className='flex gap-2 justify-between'>
-            <h4 className='font-medium text-lg text-[#001931] capitalize'>
+          <div className='md:flex gap-2 justify-between'>
+            <h4 className='font-medium text-base md:text-lg text-[#001931] capitalize mb-2 md:mb-0'>
               {ticket.title}
             </h4>
             <div className='bg-[#B9F8CF] py-1 px-3 rounded-full w-fit text-[#0B5E06] flex gap-2 items-center justify-center'>
@@ -44,7 +44,7 @@ const CustomerTickets = ({
 
           <p className='text-[#627382] text-base'>{ticket.description}</p>
 
-          <div className='grid grid-cols-2 gap-4'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
             <div className='flex gap-2 items-center'>
               <p className='text-[#627382]'>#<span>{ticket.id}</span></p>
               <p className='text-[#F83044] font-medium text-sm uppercase'>{ticket.priority} PRIORITY</p>

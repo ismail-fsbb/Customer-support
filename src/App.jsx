@@ -41,9 +41,9 @@ function App() {
       <Banner progressCount={progressCount} resolvedCount={resolvedCount} />
       <div className="container pb-20 pt-10">
         <div className="grid grid-cols-12 gap-4 md:gap-6">
-          <div className="col-span-8 space-y-5">
+          <div className="col-span-12 md:col-span-8 space-y-5">
             <h3 className='text-[#34485A] font-semibold text-2xl'>Customer Tickets</h3>
-            <div className="grid grid-cols-2 gap-4 md:gap-6">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 md:gap-6 py-5">
               <CustomerTickets
                 ticketsPromise={ticketsPromise}
                 progressCount={progressCount}
@@ -55,7 +55,7 @@ function App() {
             </div>
           </div>
 
-          <div className="col-span-4 space-y-5">
+          <div className="col-span-12 md:col-span-4 space-y-5">
             {/* Task Status */}
             <TaskStatus taskStatus={taskStatus} handleComplete={handleComplete} resolvedCount={resolvedCount} setResolvedCount={setResolvedCount} />
 
