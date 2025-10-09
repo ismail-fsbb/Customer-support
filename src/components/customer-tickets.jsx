@@ -1,8 +1,8 @@
 import React, { use } from 'react';
+import { toast } from 'react-toastify';
 
 const CustomerTickets = ({
   ticketsPromise,
-  progressCount,
   setProgressCount,
   taskStatus,
   setTaskStatus,
@@ -15,6 +15,7 @@ const CustomerTickets = ({
       setProgressCount(prev => prev + 1);
       setTaskStatus(prev => [...prev, ticket]);
     }
+    toast('In Progress')
   };
 
   // Filter out tickets that are already in Task Status OR Resolved Tasks

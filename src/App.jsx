@@ -6,12 +6,14 @@ import Navbar from './components/shared/navbar';
 import CustomerTickets from './components/customer-tickets';
 import TaskStatus from './components/task-status';
 import ResolvedTasks from './components/resolve-task';
+import { toast, ToastContainer } from 'react-toastify';
+import ticketsPromise from './data/tickets.json'
 
-const fetchTickets = async () => {
-  const res = await fetch("/src/data/tickets.json");
-  return res.json();
-};
-const ticketsPromise = fetchTickets();
+// const fetchTickets = async () => {
+//   const res = await fetch("/src/data/tickets.json");
+//   return res.json();
+// };
+// const ticketsPromise = fetchTickets();
 
 function App() {
   const [progressCount, setProgressCount] = useState(0);
@@ -31,6 +33,7 @@ function App() {
 
   	setResolvedCount(resolvedCount + 1);
   	setProgressCount(progressCount - 1);
+    toast('Completed')
   };
 
   return (
@@ -44,11 +47,11 @@ function App() {
             <div className="grid grid-cols-2 gap-4 md:gap-6">
               <CustomerTickets
                 ticketsPromise={ticketsPromise}
-				progressCount={progressCount}
-				setProgressCount={setProgressCount}
-				taskStatus={taskStatus}
-				setTaskStatus={setTaskStatus}
-				resolvedTasks={resolvedTasks}
+                progressCount={progressCount}
+                setProgressCount={setProgressCount}
+                taskStatus={taskStatus}
+                setTaskStatus={setTaskStatus}
+                resolvedTasks={resolvedTasks}
               />
             </div>
           </div>
@@ -63,6 +66,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      <ToastContainer />
     </>
   );
 }
