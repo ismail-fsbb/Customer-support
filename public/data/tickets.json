@@ -12,7 +12,7 @@
     "id": 1002,
     "title": "Payment Not Going Through",
     "description": "Payment gateway returns an error when user attempts to pay via credit card.",
-    "customer": "Emily Johnson",
+    "customer": "Emi John",
     "priority": "Medium",
     "status": "In Progress",
     "createdAt": "2024-02-03"
@@ -30,7 +30,7 @@
     "id": 1004,
     "title": "Email Notifications Not Received",
     "description": "Users are reporting they don’t receive order confirmation emails.",
-    "customer": "Sarah Williams",
+    "customer": "Sar William",
     "priority": "Low",
     "status": "Resolved",
     "createdAt": "2024-04-02"
@@ -48,7 +48,7 @@
     "id": 1006,
     "title": "Subscription Auto-Renew Failed",
     "description": "Automatic renewal didn’t process for multiple users this month.",
-    "customer": "Olivia Garcia",
+    "customer": "Oliv Garc",
     "priority": "High",
     "status": "In Progress",
     "createdAt": "2024-05-07"
@@ -57,7 +57,7 @@
     "id": 1007,
     "title": "Two-Factor Authentication Not Working",
     "description": "Customer cannot receive 2FA codes through SMS or email.",
-    "customer": "Daniel Martinez",
+    "customer": "Dani Marti",
     "priority": "High",
     "status": "Open",
     "createdAt": "2024-06-01"
@@ -75,7 +75,7 @@
     "id": 1009,
     "title": "Website Loading Slowly",
     "description": "Several users reported slow page load times, especially during checkout.",
-    "customer": "James Anderson",
+    "customer": "Jr. Anderson",
     "priority": "High",
     "status": "In Progress",
     "createdAt": "2024-07-09"
@@ -102,7 +102,7 @@
     "id": 1012,
     "title": "Live Chat Widget Not Responding",
     "description": "Live chat bubble is visible but doesn’t open on click.",
-    "customer": "Isabella Harris",
+    "customer": "Isa Harris",
     "priority": "Medium",
     "status": "In Progress",
     "createdAt": "2024-08-20"
@@ -120,7 +120,7 @@
     "id": 1014,
     "title": "Search Function Returns No Results",
     "description": "Product search bar is not displaying results even when items exist.",
-    "customer": "Mia Rodriguez",
+    "customer": "Mia Rodrig",
     "priority": "Low",
     "status": "In Review",
     "createdAt": "2024-09-27"
