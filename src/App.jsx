@@ -7,13 +7,12 @@ import CustomerTickets from './components/customer-tickets';
 import TaskStatus from './components/task-status';
 import ResolvedTasks from './components/resolve-task';
 import { toast, ToastContainer } from 'react-toastify';
-import ticketsPromise from './data/tickets.json'
 
-// const fetchTickets = async () => {
-//   const res = await fetch("/src/data/tickets.json");
-//   return res.json();
-// };
-// const ticketsPromise = fetchTickets();
+const fetchTickets = async () => {
+  const res = await fetch("/data/tickets.json");
+  return res.json();
+};
+const ticketsPromise = fetchTickets();
 
 function App() {
   const [progressCount, setProgressCount] = useState(0);
