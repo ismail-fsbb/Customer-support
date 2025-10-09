@@ -1,13 +1,12 @@
 # React Basics - Questions and Answers
----
 
 ## 1. What is JSX, and why is it used?
+
 JSX (JavaScript XML) is a syntax extension for JavaScript that looks like HTML.  
 It is used in React to make writing UI easier and more readable.  
 With JSX, we can write HTML inside JavaScript, and React converts it into actual DOM elements.
 
 ## 2. What is the Difference Between State and Props?
----
 
 ### State
 
@@ -22,7 +21,7 @@ With JSX, we can write HTML inside JavaScript, and React converts it into actual
 - Used to make components reusable and dynamic.
 
 ## 3. What is the useState hook, and how does it work?
----
+
 The **useState** hook is one of the most commonly used hooks in React.  
 It allows **functional components** to have their own **state** — data that can change over time.
 
@@ -42,7 +41,7 @@ const [state, setState] = useState(initialValue);
 ```
 
 ## 4. How Can You Share State Between Components in React?
----
+
 In React, sometimes you need **two or more components** to use the **same piece of data**.  
 To do this, you need to **share state** between components.
 
